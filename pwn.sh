@@ -69,7 +69,7 @@ kernel5x=(
     2020/CVE-2020-8835/exp.c
     2020/CVE-2020-8835/bpf.h
     2021/CVE-2021-22555/exp-2/exploit.c
-    2022/CVE20220847/exp-1/exp.sh
+    2022/CVE-2022-0847/exp-1/exp.sh
 )
 
 topexploit=(
