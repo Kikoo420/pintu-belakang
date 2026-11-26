@@ -1,8 +1,8 @@
 <?php
 
 // Telegram Config
-TG_BOT_TOKEN="8233613566:AAGd6ECqvGBsaBylgsseeQtFDQO4yzg__s4"
-TG_CHAT_ID="5222783810"
+$TG_BOT_TOKEN = "8233613566:AAGd6ECqvGBsaBylgsseeQtFDQO4yzg__s4";
+$TG_CHAT_ID = "5222783810";
 
 function send_telegram($message) {
     global $TG_BOT_TOKEN, $TG_CHAT_ID;
